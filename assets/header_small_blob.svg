@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120.997" height="143.371" viewBox="0 0 120.997 143.371">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_835" data-name="Path 835" d="M26.077,21.252C23.255,24.028.091,47.329,0,73.724v.228a42.187,42.187,0,0,0,3.413,16.7c13.471,31.356,60.664,38.819,67.9,29.126,5.279-7.054-12.561-20.388-7.327-38.865C68.4,65.259,83.737,65.805,89.835,49.7S89.471,9.01,73.861,1.956A22.527,22.527,0,0,0,64.487,0c-16.7,0-33.631,16.565-38.41,21.253" transform="translate(0 0.002)" fill="none"/>
+    </clipPath>
+    <radialGradient id="radial-gradient" cx="0.764" cy="0.483" r="0.421" gradientTransform="matrix(1.35, 0, 0, -1, -0.001, 1.911)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#191075"/>
+      <stop offset="1" stop-color="#110a50"/>
+    </radialGradient>
+  </defs>
+  <g id="Artwork_64" data-name="Artwork 64" transform="matrix(0.966, 0.259, -0.259, 0.966, 60.499, 71.685)">
+    <g id="Group_684" data-name="Group 684" transform="translate(-46.054 -61.874)" clip-path="url(#clip-path)">
+      <rect id="Rectangle_534" data-name="Rectangle 534" width="95.933" height="129.528" transform="translate(0 0.001)" fill="url(#radial-gradient)"/>
+    </g>
+  </g>
+</svg>

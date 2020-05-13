@@ -1,0 +1,139 @@
+/* DEFAULT */
+
+html{
+  box-sizing: border-box;
+  font-size: 62.5%;
+  height: 100%;
+}
+
+*, *:before,*:after{
+  box-sizing: inherit;
+}
+
+
+.font-bold-xl-dark{
+  font-family: poppins;
+  font-size: 4.8rem;
+  font-weight: bold;
+  color: #120A50;
+  text-decoration: none;
+  line-height: 6rem;
+}
+
+
+.font-bold-lg-dark{
+  font-family: poppins;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #120A50;
+  text-decoration: none;
+}
+
+.font-normal-md-light{
+  font-family: poppins;
+  font-size: 1.6rem;
+  font-weight: normal;
+  color: #706C96;
+  text-decoration: none;
+  line-height: 3.2rem;
+}
+
+.font-color-secondary{
+  color: #FF9D00;
+}
+
+.button-dark{
+  background-color: #120A50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.6rem;
+  border-radius: 0.5rem;
+  margin-top: 2rem;
+}
+
+.home-header{
+  display: grid;
+  grid-template-areas: 
+  "logo nav illu"
+  "logo context illu"
+  "logo context illu";
+  grid-template-columns: 1fr 2fr 3fr;
+  grid-template-rows: 10rem repeat(2, auto);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: 100% 0;
+  height: 100vh;
+}
+
+.nav-logo{
+  grid-area: logo;
+  align-self: end;
+}
+
+.nav-wrapper{
+  grid-area: nav;
+  align-self: end;
+  display: flex;
+  align-items: center;
+}
+
+.nav{
+  display: flex;
+}
+
+.nav-item{
+  margin-right: 4rem;
+}
+
+.home-header-content-info{
+  grid-area: context;
+  z-index: 1;
+  max-width: 50rem;
+  margin-top: 15rem;
+}
+
+.home-header-title{
+  padding-bottom: 3rem;
+}
+
+.home-header-content{
+  display: flex;
+}
+
+
+
+.home-header-img{
+  grid-area: illu;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  position: relative;
+}
+
+.home-header-img-blob{
+  position: relative;
+}
+
+.home-header-img-character{
+  position: absolute;
+  transform: translate(-5rem, -40rem);
+}
+
+.home-header-img-line{
+  position: absolute;
+  transform: translate(-9rem, -12.65rem);
+}
+
+.home-header-img-planet{
+  position: absolute;
+}
+
+@media only screen and (max-width: 1400px) {
+  .home-header{
+    background-size: 70em;
+  }
+}
